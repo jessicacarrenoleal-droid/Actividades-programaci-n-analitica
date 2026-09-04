@@ -1,3 +1,2 @@
 # Actividades-programacion-analitica
-En este repositorio tiene todos los ejercicios de clase para validación de Python para la clase de Programación Analitica
-Aplicando los conocimientos previos en clase se han podido desarrollar los siguientes ejercicios junto con el apoyo del docente en clase.
+Este repositorio reúne las prácticas realizadas durante el curso y sirve como evidencia del proceso de aprendizaje en programación analítica, aplicando los conocimientos previos en clase se han podido desarrollar los siguientes ejercicios junto con el apoyo del docente en clase. Practicar los fundamentos de la programación y desarrollar habilidades para resolver problemas mediante código
