@@ -159,3 +159,56 @@ def con_iva(precio, iva):
     return precio * (1 + iva)
 
 print(con_iva(1000, 0.19))
+
+#%% Ejercicio 26  No modificar el original
+def agregar(lista):
+    nueva = lista + [3]
+    return nueva
+datos = [1, 2]
+print(agregar(datos))
+print(datos)
+# %% Ejercicio 27 Función que recibe una lista
+def promedio(notas):
+    total = 0
+    for n in notas:
+        total = total + n
+    return total /len (notas)
+print(promedio([3.5, 4.2, 2.8]))
+# %% Ejericicio 28Función que recibe un diccionario
+
+def describir(alumno):
+    print(alumno["nombre"], alumno["nota"])
+describir({"nombre": "Laura", "nota": 4.6})
+
+# %% Ejercicio 29 
+def aprobados(estudiantes):
+    resultado = []
+    for e in estudiantes:
+        if e["nota"] >= 3.0:
+            resultado.append(e["nombre"])
+    return resultado
+
+datos = [{"nombre": "Ana", "nota": 4.2},
+         {"nombre": "Luis", "nota": 2.8}]
+print(aprobados(datos))
+# %% Ejercicio 30  Reporte de notas con funciones
+def promedio(notas):
+    total = 0
+    for n in notas:
+        total = total + n
+    return total / len(notas)
+def aprueba(prom, minimo=3.5):
+    return prom >= minimo
+def reporte(nombre, notas):
+    prom = len (notas)
+    print(nombre, round(prom, 2))
+    if aprueba (prom):
+        print("Aprobado")
+    else:
+        print("No aprobado")
+reporte("Laura", [3.5, 4.2, 2.8])
+
+#el promedio minimo de parobado es mayor o igual a 3.5
+#el len es la longihtud de las notas reportadas
+#de acuerdo a la regla se  imprime si aprueba o no aprueba 
+
